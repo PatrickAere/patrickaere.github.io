@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Aere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <p>Patrick Aere - Multimedia Artist</p>
+        <h1>Archive</h1>
+        <h3>of the things I've done</h3>
+        
+    </header>
+
+    <!-- Suchfeld -->
+    <section id="search-section">
+        <input type="text" id="search-bar" placeholder="Inhalte suchen...">
+        <div id="mediaContainer">
+            <!-- Hier werden die Medieninhalte dynamisch eingefügt oder angezeigt -->
+          </div>
+    </section>
+
+    <!-- Zentraler Bereich -->
+    <main>
+        <!-- Übersicht -->
+        <section id="overview">
+            <div id="content-list">
+                <!-- Platzhalter für Inhalte, die später dynamisch hinzugefügt werden -->
+            </div>
+        </section>
+
+        <!-- Detailansicht -->
+        <section id="detail-view" style="display: none;">
+            <div id="content-detail">
+                <!-- Platzhalter für ausgewählte Inhalte -->
+                <p>Details zum ausgewählten Inhalt...</p>
+            </div>
+            <!-- Eingabeformular für Kommentare -->
+            <form id="comment-form">
+                <label for="comment">Add a comment:</label>
+                <textarea id="comment" rows="1" placeholder="Comment here..."></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow me on <a href="https://www.instagram.com/aere_creative">Instagram</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
